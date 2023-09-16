@@ -1,39 +1,40 @@
 # App-gestion-de-reservation-des-vols
-# Voici tous les étapes que vous devriez suivre pour que cette application fonctionne parfaitement.
+Étapes pour faire fonctionner cette application correctement :
 
-# Pré-requis
-Vous devez installer un éditeur de code sur votre ordinateur.
-Vous devez installer un serveur web sur votre ordinateur (ex:xampp,...).
-Vous devez installer composer sur votre ordinateur.
+# Pré-requis :
+1. Installez un éditeur de code sur votre ordinateur.
+2. Installez un serveur web sur votre ordinateur (ex : XAMPP, ...).
+3. Installez Composer sur votre ordinateur.
 
-# Premièrement
-Vous devez executé les commande ci-dessous:
-composer install
-cp env.example .env
+# Premièrement :
+1. Exécutez les commandes suivantes :
+2. composer install
+3. cp env.example .env
 
-# Deuxièment
-Créer un base de données sur votre ordinateur.
-Dans le fichier .env : spécifier le nom de votre base de donnée (ex: DB_DATABASE=nom_de_votre_base_de_donnée)
+# Deuxièmement :
+1. Créez une base de données sur votre ordinateur.
+2. Dans le fichier .env, spécifiez le nom de votre base de données (ex : DB_DATABASE=nom_de_votre_base_de_donnee).
 
-# Troisièment
-Vous devez executé les commande ci-dessous:
-php artisan migrate
-
-# Quatrièment
-Il y a un fichier script_sql.sql dans le répertoire database/script_sql/script_sql.sql.
-Et après ouvrer cet fichier et execute les script dans votre base de donnée.
-
-# Cinquièment
-Executé le commande => "php artisan serve" pour lancé l'application en local
-
-# Sixièment 
-Il y a 2 types d'utilisateurs:
-=>Administrateur:
-  -Nom d'utlistauer=>andrianarivo24@gmail.com
-  -Mot de passe=>andrianarivo24@gmail.com
-
-=>Utilisateur: 
-  -Nom d'utlistauer=>nomenjanahary@gmail.com
-  -Mot de passe=>nomenjanahary@gmail.com
-
+# Troisièmement :
+1. Exécutez la commande suivante :
+2. php artisan migrate
+   
  
+# Quatrièmement :
+1. Il y a un fichier script_sql.sql dans le répertoire database/script_sql/script_sql.sql. Ouvrez ce fichier et exécutez les scripts dans votre base de données.
+
+# Cinquièmement :
+1. Exécutez la commande `php artisan serve` pour lancer l'application en local.
+
+# Sixièmement :
+Il y a deux types d'utilisateurs :
+
+Administrateur :
+- Nom d'utilisateur : andrianarivo24@gmail.com
+- Mot de passe : andrianarivo24@gmail.com
+
+Utilisateur :
+- Nom d'utilisateur : nomenjanahary@gmail.com
+- Mot de passe : nomenjanahary@gmail.com
+
+Lien vers le dépôt GitHub de l'application : [https://github.com/Pierre501/App-gestion-de-reservation-des-vols](https://github.com/Pierre501/App-gestion-de-reservation-des-vols)

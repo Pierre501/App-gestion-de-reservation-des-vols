@@ -31,7 +31,7 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="montant_tarif">Montant du tarif <span class="input-required">*</span></label>
-                                            <input class="form-control" type="number" id="montant_tarif" name="montant_tarif" value="{{ $simpleTarif->getMontantTarif() }}" required>
+                                            <input class="form-control" type="number" id="montant_tarif" step="any" name="montant_tarif" value="{{ $simpleTarif->getMontantTarif() }}" required>
                                         </div>
                                         <input type="hidden" name="tarifs_id" value="{{ $simpleTarif->getId() }}">
                                         <input type="hidden" name="type_tarifs_id" value="{{ $simpleTypeTarif->getId() }}">
